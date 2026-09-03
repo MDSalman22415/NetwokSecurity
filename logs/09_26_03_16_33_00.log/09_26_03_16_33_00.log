@@ -1,0 +1,6 @@
+[2026-09-03 16:33:04,730] 11 root -INFO -Enter the try block
+[2026-09-03 16:33:04,731] 15 root -INFO -Initiate the data ingesion
+[2026-09-03 16:33:11,525] 62 root -INFO -Performed traintest split on the dataframe
+[2026-09-03 16:33:11,526] 64 root -INFO -Exited split data as train test method of data_ingestion class
+[2026-09-03 16:33:11,527] 72 root -INFO -Exporting train and test file path
+[2026-09-03 16:33:11,606] 82 root -INFO -Exported train and test file path
