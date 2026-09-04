@@ -101,7 +101,6 @@ class DataValidation:
                     self.data_validation_config.drift_report_file_path
                 )
 
-                ## Create directory
                 dir_path = os.path.dirname(drift_report_file_path)
                 os.makedirs(dir_path, exist_ok=True)
 
@@ -199,7 +198,7 @@ class DataValidation:
 
             self.data_validation_artifact = DataValidationArtifact(
                 validation_status=status,
-                validation_train_file_path=(
+                valid_train_file_path=(
                     self.data_validation_config.valid_train_file_path
                 ),
                 valid_test_file_path=(
