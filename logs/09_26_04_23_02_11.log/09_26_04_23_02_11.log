@@ -1,0 +1,32 @@
+[2026-09-04 23:02:19,037] 21 root -INFO -Enter the try block
+[2026-09-04 23:02:19,038] 25 root -INFO -Initiate the data ingesion
+[2026-09-04 23:02:23,714] 62 root -INFO -Performed traintest split on the dataframe
+[2026-09-04 23:02:23,714] 64 root -INFO -Exited split data as train test method of data_ingestion class
+[2026-09-04 23:02:23,715] 72 root -INFO -Exporting train and test file path
+[2026-09-04 23:02:23,767] 82 root -INFO -Exported train and test file path
+[2026-09-04 23:02:23,767] 27 root -INFO -Data Initiate Completed
+[2026-09-04 23:02:23,774] 31 root -INFO -Initiate the data Validation
+[2026-09-04 23:02:23,854] 36 root -INFO -Required number of columns :2
+[2026-09-04 23:02:23,854] 37 root -INFO -Dataframe has columns :31
+[2026-09-04 23:02:23,854] 36 root -INFO -Required number of columns :2
+[2026-09-04 23:02:23,854] 37 root -INFO -Dataframe has columns :31
+[2026-09-04 23:02:23,857] 57 root -INFO -Required number of numerical columns :31
+[2026-09-04 23:02:23,857] 62 root -INFO -Data has numerical columns :31
+[2026-09-04 23:02:23,857] 57 root -INFO -Required number of numerical columns :31
+[2026-09-04 23:02:23,857] 62 root -INFO -Data has numerical columns :31
+[2026-09-04 23:02:24,098] 33 root -INFO -Data Validation is completed
+[2026-09-04 23:02:24,099] 37 root -INFO -data Transformation started
+[2026-09-04 23:02:24,099] 65 root -INFO -Entered initiate_data_transformation method of DataTransformation class
+[2026-09-04 23:02:24,099] 67 root -INFO -Starting data transformation
+[2026-09-04 23:02:24,206] 50 root -INFO -Entered get_data_trnasformer_object method of Trnasformation class
+[2026-09-04 23:02:24,207] 55 root -INFO -Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2026-09-04 23:02:24,297] 55 root -INFO -Entered the save_object method of MainuUtils class
+[2026-09-04 23:02:24,302] 59 root -INFO -Exited the save_object method of MainuUtils class
+[2026-09-04 23:02:24,303] 55 root -INFO -Entered the save_object method of MainuUtils class
+[2026-09-04 23:02:24,307] 59 root -INFO -Exited the save_object method of MainuUtils class
+[2026-09-04 23:02:24,309] 41 root -INFO -data Transformation completed
+[2026-09-04 23:02:24,310] 43 root -INFO -Model training started
+[2026-09-04 23:06:06,332] 55 root -INFO -Entered the save_object method of MainuUtils class
+[2026-09-04 23:06:06,384] 59 root -INFO -Exited the save_object method of MainuUtils class
+[2026-09-04 23:06:06,385] 150 root -INFO -Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\09_04_2026_23_02_12\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9917741444094648, precision_score=0.9884615384615385, recall_score=0.995109027919299), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9731012658227848, precision_score=0.9624413145539906, recall_score=0.984))
+[2026-09-04 23:06:06,390] 48 root -INFO -Model Training artifact created

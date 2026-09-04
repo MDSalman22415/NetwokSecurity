@@ -1,0 +1,28 @@
+[2026-09-04 22:37:35,227] 21 root -INFO -Enter the try block
+[2026-09-04 22:37:35,228] 25 root -INFO -Initiate the data ingesion
+[2026-09-04 22:37:39,813] 62 root -INFO -Performed traintest split on the dataframe
+[2026-09-04 22:37:39,813] 64 root -INFO -Exited split data as train test method of data_ingestion class
+[2026-09-04 22:37:39,814] 72 root -INFO -Exporting train and test file path
+[2026-09-04 22:37:39,914] 82 root -INFO -Exported train and test file path
+[2026-09-04 22:37:39,915] 27 root -INFO -Data Initiate Completed
+[2026-09-04 22:37:39,925] 31 root -INFO -Initiate the data Validation
+[2026-09-04 22:37:40,236] 36 root -INFO -Required number of columns :2
+[2026-09-04 22:37:40,236] 37 root -INFO -Dataframe has columns :31
+[2026-09-04 22:37:40,236] 36 root -INFO -Required number of columns :2
+[2026-09-04 22:37:40,236] 37 root -INFO -Dataframe has columns :31
+[2026-09-04 22:37:40,240] 57 root -INFO -Required number of numerical columns :31
+[2026-09-04 22:37:40,240] 62 root -INFO -Data has numerical columns :31
+[2026-09-04 22:37:40,242] 57 root -INFO -Required number of numerical columns :31
+[2026-09-04 22:37:40,243] 62 root -INFO -Data has numerical columns :31
+[2026-09-04 22:37:40,796] 33 root -INFO -Data Validation is completed
+[2026-09-04 22:37:40,796] 37 root -INFO -data Transformation started
+[2026-09-04 22:37:40,797] 65 root -INFO -Entered initiate_data_transformation method of DataTransformation class
+[2026-09-04 22:37:40,797] 67 root -INFO -Starting data transformation
+[2026-09-04 22:37:40,959] 50 root -INFO -Entered get_data_trnasformer_object method of Trnasformation class
+[2026-09-04 22:37:40,960] 55 root -INFO -Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2026-09-04 22:37:41,054] 55 root -INFO -Entered the save_object method of MainuUtils class
+[2026-09-04 22:37:41,061] 59 root -INFO -Exited the save_object method of MainuUtils class
+[2026-09-04 22:37:41,061] 55 root -INFO -Entered the save_object method of MainuUtils class
+[2026-09-04 22:37:41,068] 59 root -INFO -Exited the save_object method of MainuUtils class
+[2026-09-04 22:37:41,071] 41 root -INFO -data Transformation completed
+[2026-09-04 22:37:41,071] 43 root -INFO -Model training started
