@@ -14,8 +14,14 @@ import sys
 import os
 import mlflow
 
-mlflow.set_tracking_uri("sqlite:///mlflow.db")
-mlflow.set_experiment("Network Security")
+import dagshub
+import mlflow
+
+dagshub.init(
+    repo_owner="MDSalman22415",
+    repo_name="NetwokSecurity",
+    mlflow=True
+)
 if __name__=="__main__":
     try:
         logging.info("Enter the try block")
